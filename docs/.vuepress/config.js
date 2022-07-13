@@ -36,13 +36,13 @@ module.exports = {
       }
     },
     nav: [
-      { text: 'GitHub', link: 'https://github.com/chenquincy/vue-dynamic-form-component' },
+      { text: 'GitHub', link: 'https://github.com/iminifly/vue-dynamic-form-component' },
       { text: 'v1.x', link: 'https://vue-dynamic-form.v1.quincychen.cn' }
     ]
   },
   plugins: {
     'sitemap': {
-      hostname: 'https://vue-dynamic-form.quincychen.cn',
+      hostname: 'https://github.com/iminifly/',
       exclude: ['/404.html']
     },
     '@vuepress/plugin-google-analytics': {

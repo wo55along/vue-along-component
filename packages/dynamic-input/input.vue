@@ -11,6 +11,8 @@
   </component>
   <!-- enum type use el-select -->
   <el-select
+    :filterable="true"
+    :allow-create="true"
     v-else-if="descriptor.type === 'enum'"
     class="dynamic-input"
     v-model="_value"

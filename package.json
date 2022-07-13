@@ -1,11 +1,11 @@
 {
-  "name": "vue-dynamic-form-component",
+  "name": "vue-dynamic-form-component-iminifly",
   "version": "2.8.1",
   "license": "MIT",
   "author": {
-    "email": "mail@quincychen.cn",
-    "name": "quincychen",
-    "url": "https://quincychen.cn"
+    "email": "iminifly@outlook.com",
+    "name": "iminifly",
+    "url": "https://github.com/iminifly/"
   },
   "keywords": [
     "vue",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "github",
-    "url": "https://github.com/chenquincy/vue-dynamic-form-component"
+    "url": "https://github.com/iminifly/vue-dynamic-form-component"
   },
   "scripts": {
     "dev": "vue-cli-service serve",
