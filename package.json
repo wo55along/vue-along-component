@@ -1,6 +1,6 @@
 {
   "name": "vue-dynamic-form-component-iminifly",
-  "version": "2.8.2",
+  "version": "2.8.3",
   "license": "MIT",
   "author": {
     "email": "iminifly@outlook.com",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --dest lib --name vue-dynamic-form-component ./packages/index.js",
+    "build": "vue-cli-service build --target lib --dest lib --name vue-dynamic-form-component-iminifly ./packages/index.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
