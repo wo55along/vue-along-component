@@ -13,7 +13,7 @@
   <el-select
     :filterable="true"
     :allow-create="true"
-    v-else-if="descriptor.type === 'enum'"
+    v-else-if="descriptor.type === 'enum2'"
     class="dynamic-input"
     v-model="_value"
     v-bind="_bind"
@@ -21,6 +21,17 @@
     :class="{'multi-select': descriptor.multiple}"
     :size="size"
     :multiple="descriptor.multiple">
+    <el-option v-for="option in _options" :key="option.label" :value="option.value" :label="option.label" :disabled="option.disabled"></el-option>
+  </el-select>
+  <el-select
+      v-else-if="descriptor.type === 'enum'"
+      class="dynamic-input"
+      v-model="_value"
+      v-bind="_bind"
+      v-on="_on"
+      :class="{'multi-select': descriptor.multiple}"
+      :size="size"
+      :multiple="descriptor.multiple">
     <el-option v-for="option in _options" :key="option.label" :value="option.value" :label="option.label" :disabled="option.disabled"></el-option>
   </el-select>
   <!-- date type use el-date-picker -->
