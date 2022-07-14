@@ -1,6 +1,6 @@
 {
   "name": "vue-dynamic-form-component-iminifly",
-  "version": "2.8.3",
+  "version": "2.8.4",
   "license": "MIT",
   "author": {
     "email": "iminifly@outlook.com",
@@ -44,6 +44,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^7.0.0",
+    "sass": "^1.53.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
