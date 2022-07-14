@@ -1,6 +1,6 @@
 {
   "name": "vue-dynamic-form-component-iminifly",
-  "version": "2.8.4",
+  "version": "2.8.5",
   "license": "MIT",
   "author": {
     "email": "iminifly@outlook.com",
@@ -23,7 +23,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "main": "./lib/vue-dynamic-form-component.umd.min.js",
+  "main": "./lib/vue-dynamic-form-component-iminifly.umd.min.js",
   "typings": "types/index.d.ts",
   "vetur": {
     "tags": "vetur/tags.json",
