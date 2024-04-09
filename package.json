@@ -1,11 +1,11 @@
 {
-  "name": "vue-dynamic-form-component-iminifly",
+  "name": "vue-along-component",
   "version": "2.8.6",
   "license": "MIT",
   "author": {
-    "email": "iminifly@outlook.com",
-    "name": "iminifly",
-    "url": "https://github.com/iminifly/"
+    "email": "wo55along@gmail.com",
+    "name": "wo55along",
+    "url": "https://github.com/wo55along"
   },
   "keywords": [
     "vue",
@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "github",
-    "url": "https://github.com/iminifly/vue-dynamic-form-component"
+    "url": "https://github.com/wo55along/vue-along-component"
   },
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --dest lib --name vue-dynamic-form-component-iminifly ./packages/index.js",
+    "build": "vue-cli-service build --target lib --dest lib --name vue-along-component-wo55along ./packages/index.js",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "main": "./lib/vue-dynamic-form-component-iminifly.umd.min.js",
+  "main": "./lib/vue-along-component-wo55along.umd.min.js",
   "typings": "types/index.d.ts",
   "vetur": {
     "tags": "vetur/tags.json",
