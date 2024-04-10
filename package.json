@@ -23,7 +23,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "main": "./lib/vue-along-component-wo55along.umd.min.js",
+  "main": "./lib/vue-along-component.umd.min.js",
   "typings": "types/index.d.ts",
   "vetur": {
     "tags": "vetur/tags.json",
